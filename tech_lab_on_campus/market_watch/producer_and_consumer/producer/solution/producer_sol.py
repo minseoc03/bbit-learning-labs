@@ -1,4 +1,6 @@
 import pika
+import sys
+sys.path.append('..')
 from producer_interface import mqProducerInterface
 
 class mqProducer(mqProducerInterface):
